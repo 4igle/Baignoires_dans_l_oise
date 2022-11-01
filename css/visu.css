@@ -1,0 +1,55 @@
+*{
+    background-color: #fff9e2;
+}
+
+.equipe{
+  border: 1px solid black;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td
+{
+  padding: 5px;
+}
+
+#gauche, #droite
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titre
+{
+  color : white;
+  background-color: blue;
+}
+
+.bleu
+{
+  width: 100%;
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.vert
+{
+  background-color: green;
+}
+
+.rouge
+{
+  background-color: red;
+}
+
+.general
+{
+  height: 100vh;
+  overflow: scroll;
+}

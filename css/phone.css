@@ -1,0 +1,92 @@
+@media screen and (max-width: 1200px)
+{
+	#bulle
+	{
+		display: none;
+	}
+
+  #corps
+  {
+    height: 77%;
+  }
+
+	.basic-slide + label
+	{
+		min-width: 110px;
+	}
+
+  #liens
+  {
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  #liens a
+  {
+    font-size: 250%;
+  }
+
+  #liens div
+  {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 270px;
+  }
+
+  #pied_de_page
+  {
+    flex-wrap: wrap;
+    min-height: 13%;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+  }
+
+  #accueil, #village, .tof1, #programme, #inscription, #titre_div, #formulaire, #aftermovie
+  {
+    margin-left: 3%;
+  }
+
+  #titre_div
+  {
+    margin-right: 3%;
+    width: 91.5%;
+  }
+
+  #contenu::-webkit-scrollbar
+  {
+    width: 25px;
+  }
+
+  .image
+  {
+    height: 45%;
+    max-height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #entete
+  {
+    height: 10%;
+  }
+
+  #div_logo_entete
+  {
+    max-width: 20%;
+  }
+
+  #logo_entete
+  {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+	.basic-slide
+	{
+	  padding-left: 16%;
+	}
+}
